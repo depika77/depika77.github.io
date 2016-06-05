@@ -1,0 +1,99 @@
+body {
+	background-color: white;
+	/* this is a css comments line*/
+	/*font family in case not everyone has helvetica*/
+	font-family: Monospace, Helvetica, Arial, sans-serif;
+	/*keep the brackets on another line as we'll prob add more stuff here*/
+	/* html will give margin spacing automcatically for headings etc*/
+	background-image: url(../images/imgres.jpg);
+	/* .. goes out of the folder and into another the reference your image*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	/* 50 50 stays in the middle of the image*/
+	background-attachment: fixed;
+	/*the above means the image doesnt scroll off*/
+
+
+}
+
+.main {
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 10px 10px 10px 10px red;
+
+	max-width: 600px;
+/* reason you did this was to put all the text in a white border and constrain the white box */
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	/* last couple of things change the white text box*/
+
+	}
+
+h1 {
+	text-align: center;
+	font-size:50px;
+	text-shadow: 5px 0px 0px grey;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+
+h2 {
+	text-align: center;
+	font-size: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+
+h3:hover {
+	cursor:pointer;
+	text-decoration: underline;
+
+}
+
+
+h3 {
+		margin-bottom: 0;
+		
+
+
+h3 + * {
+		display:none;
+}
+/* this means after h3 an anythign (which is *) do .... Note + is the same as next in javascript
+
+
+img{
+	display: block;
+	/* block means not imbedded within the text but blocks out an entire ro*/
+	margin-left: auto;
+	margin-right: auto;
+	/*the above will center the image*/
+	border: 1px solid black;
+	/*you can deceide the pixels and if it is solid dotted or dashed*/
+	border-radius: 50%;
+	/*the above makes the photo round*/
+
+
+}
+
+ol, ul {list-style :none;
+	/* this removes the bullets */
+	line-height: 1.5;
+	padding-left: 0;
+}
+
+a {
+	color: #ff0033;
+	font-weight: bold;
+	text-decoration: none;
+
+	/* text decoration is removing the underlining in the link */
+
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #aa0000;
+}
